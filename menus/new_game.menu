@@ -1,0 +1,21 @@
+New game
+0 0
+3
+
+Play 3x3
+2 0
+WHITE
+READ_MENU_COLOR
+PUSH_MENU menus/new_game_3x3.menu
+
+Play 5x5
+3 0
+WHITE
+READ_MENU_COLOR
+PUSH_MENU menus/new_game_5x5.menu
+
+Back
+5 0
+WHITE
+READ_MENU_COLOR
+POP_MENU

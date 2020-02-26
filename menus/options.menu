@@ -1,0 +1,21 @@
+Options
+0 0
+3
+
+Difficulty
+2 0
+WHITE
+READ_MENU_COLOR
+PUSH_MENU menus/difficulty.menu
+
+Colors
+3 0
+WHITE
+READ_MENU_COLOR
+PUSH_MENU menus/colors.menu
+
+Back
+5 0
+WHITE
+READ_MENU_COLOR
+POP_MENU

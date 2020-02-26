@@ -1,0 +1,111 @@
+# depslib dependency file v1.0
+1580337492 source:e:\programming\ambertest\main.cpp
+	"res/include/Menu_functions_link.h"
+	<cstdio>
+
+1580336845 e:\programming\ambertest\res\include\table.h
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<map>
+	"Utils.h"
+
+1580334176 source:e:\programming\ambertest\res\src\table.cpp
+	"../include/Table.h"
+
+1579712536 source:e:\programming\ambertest\test\table_test.cpp
+
+1580337219 source:e:\programming\ambertest\res\src\game.cpp
+	"../include/Game.h"
+
+1580336714 e:\programming\ambertest\res\include\utils.h
+	<conio.h>
+	<stdlib.h>
+	<windows.h>
+
+1580337016 e:\programming\ambertest\res\include\game.h
+	<vector>
+	"Player.h"
+	"AI.h"
+	"Cursor.h"
+	"Menu_manager.h"
+
+1580306282 e:\programming\ambertest\res\include\player.h
+	"Base_player.h"
+
+1580306299 source:e:\programming\ambertest\res\src\player.cpp
+	"../include/Player.h"
+
+1580336727 source:e:\programming\ambertest\res\src\utils.cpp
+	"../include/Utils.h"
+
+1580336063 e:\programming\ambertest\res\include\cursor.h
+	"Utils.h"
+
+1580216281 source:e:\programming\ambertest\res\src\cursor.cpp
+	"../include/Cursor.h"
+
+1580301008 source:e:\programming\ambertest\res\src\menu.cpp
+	"../include/Menu.h"
+
+1580336510 e:\programming\ambertest\res\include\menu.h
+	<vector>
+	"Menu_option.h"
+	"Utils.h"
+
+1580336729 e:\programming\ambertest\res\include\menu_option.h
+	<cstring>
+	<string>
+	<map>
+	"Utils.h"
+	"Context.h"
+
+1580336753 source:e:\programming\ambertest\res\src\menu_option.cpp
+	"../include/Menu_option.h"
+
+1580250319 source:e:\programming\ambertest\res\src\settings.cpp
+	"../include/Settings.h"
+
+1580337576 e:\programming\ambertest\res\include\settings.h
+	<cstdio>
+
+1580287286 e:\programming\ambertest\res\include\menu_functions_link.h
+	"Menu_functions.h"
+
+1580331066 e:\programming\ambertest\res\include\menu_functions.h
+	"Menu_manager.h"
+	"Game.h"
+	"Settings.h"
+
+1580336640 e:\programming\ambertest\res\include\menu_manager.h
+	<stack>
+	"Menu.h"
+	"Context.h"
+
+1580287676 e:\programming\ambertest\res\include\context.h
+
+1580334966 source:e:\programming\ambertest\res\src\menu_functions.cpp
+	"../include/Menu_functions.h"
+
+1580331268 source:e:\programming\ambertest\res\src\menu_functions_link.cpp
+	"../include/Menu_functions_link.h"
+
+1580304529 source:e:\programming\ambertest\res\src\menu_manager.cpp
+	"../include/Menu_manager.h"
+
+1580335992 e:\programming\ambertest\res\include\base_player.h
+	<bitset>
+	"Table.h"
+	"Cursor.h"
+	"Utils.h"
+
+1580335877 e:\programming\ambertest\res\include\ai.h
+	<vector>
+	"Base_player.h"
+
+1580306228 source:e:\programming\ambertest\res\src\base_player.cpp
+	"../include/Base_player.h"
+
+1580333788 source:e:\programming\ambertest\res\src\ai.cpp
+	"../include/AI.h"
+

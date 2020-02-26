@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AmberTest" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AmberTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AmberTest" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="res/include/AI.h" />
+		<Unit filename="res/include/Base_player.h" />
+		<Unit filename="res/include/Context.h" />
+		<Unit filename="res/include/Cursor.h" />
+		<Unit filename="res/include/Game.h" />
+		<Unit filename="res/include/Menu.h" />
+		<Unit filename="res/include/Menu_functions.h" />
+		<Unit filename="res/include/Menu_functions_link.h" />
+		<Unit filename="res/include/Menu_manager.h" />
+		<Unit filename="res/include/Menu_option.h" />
+		<Unit filename="res/include/Player.h" />
+		<Unit filename="res/include/Settings.h" />
+		<Unit filename="res/include/Table.h" />
+		<Unit filename="res/include/Utils.h" />
+		<Unit filename="res/src/AI.cpp" />
+		<Unit filename="res/src/Base_player.cpp" />
+		<Unit filename="res/src/Cursor.cpp" />
+		<Unit filename="res/src/Game.cpp" />
+		<Unit filename="res/src/Menu.cpp" />
+		<Unit filename="res/src/Menu_functions.cpp" />
+		<Unit filename="res/src/Menu_functions_link.cpp" />
+		<Unit filename="res/src/Menu_manager.cpp" />
+		<Unit filename="res/src/Menu_option.cpp" />
+		<Unit filename="res/src/Player.cpp" />
+		<Unit filename="res/src/Settings.cpp" />
+		<Unit filename="res/src/Table.cpp" />
+		<Unit filename="res/src/Utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

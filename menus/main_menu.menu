@@ -1,0 +1,27 @@
+Tic Tac Toe
+0 0
+4
+
+New game
+2 0
+BLUE
+READ_MENU_COLOR
+PUSH_MENU menus/new_game.menu
+
+Load game
+3 0
+BLUE
+READ_MENU_COLOR
+PUSH_MENU menus/load.menu
+
+Options
+4 0
+WHITE
+READ_MENU_COLOR
+PUSH_MENU menus/options.menu
+
+Exit game
+6 0
+RED
+READ_MENU_COLOR
+POP_MENU
